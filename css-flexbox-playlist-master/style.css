@@ -17,25 +17,28 @@ body{
 
     display: flex;
     background-color: white;
+    flex-wrap: wrap;
 }
 
 .box{
         height: 100px;
-        min-width: 100px;
-      
+        flex-basis: 200px;
+        
 
 }
 .one{
 
     background: red;
-
+    
 }
 .two{
 
     background:blue;
+    
 }
 
 .three{
 
         background:green;
+        
  }
